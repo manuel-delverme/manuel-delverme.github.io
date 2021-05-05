@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Manuel Del Veme"
 title_separator          : "-"
 name                     : &name "Manuel Del Verme"
-description              : &description "personal description"
+description              : &description "PhD Student at Mila/McGill University"
 url                      : https://manuel-delverme.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "manuel-delverme/manuel-delverme.github.io"
@@ -80,13 +80,13 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
-  avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
-  employer         :
+  name             : "Manuel Del Verme"
+  avatar           : "https://avatars.githubusercontent.com/u/1309922?v=4"
+  bio              : "PhD Student of Pierre-Luc Bacon and Doina Precup"
+  location         : "Montreal"
+  employer         : 
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
+  googlescholar    : "https://scholar.google.com/citations?user=JcOwyS0AAAAJ&hl=en"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -96,20 +96,20 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "manuel-delverme"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  linkedin         : "https://www.linkedin.com/in/manuel-del-verme-8b3b4b58/"
+  orcid            :
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : "manueldelverme"
   vine             :
   weibo            :
   xing             :
