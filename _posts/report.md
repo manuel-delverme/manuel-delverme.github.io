@@ -1,15 +1,20 @@
 ---
-author:
-- Manuel Del Verme
+title: 'Divide et Impera and Neural Networks'
+date: 2012-08-14
+permalink: /posts/2012/08/blog-post-test/
+tags:
+  - category1
+  - category2
+  - deep learning
+
+
 bibliography:
 - 'cit.bib'
 
-title: 'Divide et Impera and Neural Networks'
 date: 2021-02-01
-permalink: /posts/research/constr_nn/
-tags:
-  - Deep Learning
 ---
+
+permalink: /posts/research/constr_nn/
 
 Decomposing a problem into smaller and more manageable pieces to be
 solved independently and then merging the solutions has been a common
