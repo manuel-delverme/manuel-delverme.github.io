@@ -1,6 +1,6 @@
 ---
 title: 'Divide et Impera and Neural Networks'
-date: 2012-08-14
+date: 2021-01-14
 permalink: /posts/2012/08/blog-post-test/
 tags:
   - category1
@@ -11,7 +11,6 @@ tags:
 bibliography:
 - 'cit.bib'
 
-date: 2021-02-01
 ---
 
 permalink: /posts/research/constr_nn/
