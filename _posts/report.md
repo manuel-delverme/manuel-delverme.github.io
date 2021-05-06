@@ -3,7 +3,12 @@ author:
 - Manuel Del Verme
 bibliography:
 - 'cit.bib'
-title: Divide et Impera and Neural Networks
+
+title: 'Divide et Impera and Neural Networks'
+date: 2021-02-01
+permalink: /posts/research/constr_nn/
+tags:
+  - Deep Learning
 ---
 
 Decomposing a problem into smaller and more manageable pieces to be
