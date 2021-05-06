@@ -13,8 +13,6 @@ bibliography:
 
 ---
 
-permalink: /posts/research/constr_nn/
-
 Decomposing a problem into smaller and more manageable pieces to be
 solved independently and then merging the solutions has been a common
 motif inspiring many fundamental advancements (Search, ordinary
