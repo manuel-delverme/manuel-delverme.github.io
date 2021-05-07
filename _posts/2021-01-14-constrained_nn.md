@@ -47,13 +47,12 @@ heuristics adds some bias to the results.
 Overview
 ========
 
-In section [2](#sec:nn){reference-type="ref" reference="sec:nn"} will
+In section [2](#sec:nn) will
 first see how we can reformulate the training of a neural network as a
 constrained optimization problem allowing us to turn global gradients
 into local ones, hereby allowing us to solve the global problem by
 solving many small problems. Section
-[3](#sec:unconstrained){reference-type="ref"
-reference="sec:unconstrained"} will show how past methods tried to solve
+[3](#sec:unconstrained) will show how past methods tried to solve
 the constrained optimization problem, Section
 [4](#sec:oc){reference-type="ref" reference="sec:oc"} will instead show
 how the field of optimal control encountered the same class of problems
