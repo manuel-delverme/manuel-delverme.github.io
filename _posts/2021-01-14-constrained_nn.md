@@ -1,7 +1,7 @@
 ---
 title: 'Divide et Impera and Neural Networks'
 date: 2021-01-14
-permalink: /posts/constrained_nn/
+permalink: /posts/2021/01/14/constrained_nn/
 tags:
   - category1
   - category2
