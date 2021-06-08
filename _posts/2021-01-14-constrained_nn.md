@@ -677,17 +677,21 @@ extrapolation step (look ahead) for both players and applying the
 extrapolated gradients instead of the original ones, this method does
 not require strong monotonicity, which makes it a better candidate for
 neural networks.\
-We are interested in finding a saddle point $VI(\mathcal{X}, F)$ of the
-Lagrangian $L(x_0;w,h,\lambda) = \ell(h_L, y)+ \lambda^T H(x_0; w, h)$
 
-where: $F = [1, -1]^T\nabla L$
+To simplify notation lets call $\theta$ the primal variables $(w, x_0, h, y)$.
+
+We are interested in finding a saddle point $VI(\mathcal{X}, F)$ of the
+Lagrangian 
+$$L(\theta, \lambda) = \ell(\theta)+ \lambda^T H(\theta)$$
+
+where: $F(x) = [1, -1]^T\nabla L$, we can now look at $F(x)$ as a function
 
 EG follows the simple two step update rule:\
 $$\begin{aligned}
 \overline{x}=P_C(x^k−\alpha F(x^k))\\
 x^{k+1}=P_C(x^k−\alpha F(\overline{x}))\end{aligned}$$
 
-In our case, the Euclidean projection $P_C$ is not necessary.
+In our case, the Euclidean projection $P_C$ is not necessary so we have a cleaner update:
 $$\begin{aligned}
 \overline{x}=x^k−\alpha F(x^k)\\
 x^{k+1}=x^k−\alpha F(\overline{x})\end{aligned}$$
