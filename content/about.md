@@ -24,7 +24,7 @@ Book a chat: [calendly.com/manuel-delverme/15min](https://calendly.com/manuel-de
 
 I track everything. 26 data sources spanning 13+ years: Spotify plays, GitHub commits, browser history, location data, messages, calendar events, finance transactions, health metrics.
 
-Why? Because I wanted to know what actually drives productivity. Not what books say. Not what productivity gurus claim. What the data shows.
+The goal: identify causal factors in personal productivity through longitudinal self-experimentation. Most productivity advice relies on anecdote, survivorship bias, or small-N studies with poor ecological validity. With 13+ years of continuous measurement, I can run proper before/after analyses and control for confounds.
 
 ### What I've Found
 
