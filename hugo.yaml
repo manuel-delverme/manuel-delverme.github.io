@@ -1,0 +1,58 @@
+baseURL: https://blog.silverstream.ai/
+languageCode: en-us
+title: Quantified Mind
+theme: PaperMod
+
+params:
+  env: production
+  description: "Data-driven insights on productivity, flow states, and human performance"
+  author: Manuel Del Verme
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowToc: true
+  TocOpen: false
+  comments: false
+
+  homeInfoParams:
+    Title: "Quantified Mind"
+    Content: "I track everything. Here's what the data says about productivity, flow, and human performance."
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/manuel-delverme"
+    - name: twitter
+      url: "https://twitter.com/ManuelDelVerme"
+
+  assets:
+    favicon: "/favicon.ico"
+
+  cover:
+    hidden: false
+    hiddenInList: false
+    hiddenInSingle: false
+
+menu:
+  main:
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 10
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 20
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+markup:
+  highlight:
+    style: monokai
+    lineNos: false
+    guessSyntax: true
