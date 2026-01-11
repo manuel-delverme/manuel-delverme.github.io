@@ -5,19 +5,28 @@ draft: false
 ShowToc: false
 ---
 
-I track everything.
+PhD student under Pierre-Luc Bacon and Doina Precup. I split my time between research and building.
 
-For over a decade, I've been logging my digital life: Spotify plays, GitHub commits, browser history, location data, messages, calendar events, finance transactions, health metrics. 26 data sources spanning 13+ years, all feeding into a personal database.
+## Research
+
+Working on questions like:
+- Do we really need silicon-based computation?
+- Can we build interfaces that adapt to users rather than the other way around?
+- Can we train bigger neural networks in a distributed fashion?
+
+Tools like [experiment_buddy](https://github.com/manuel-delverme/experiment_buddy) aim to make AI researchers' workflows smoother.
+
+Book a chat: [calendly.com/manuel-delverme/15min](https://calendly.com/manuel-delverme/15min)
+
+---
+
+## Quantified Self
+
+I track everything. 26 data sources spanning 13+ years: Spotify plays, GitHub commits, browser history, location data, messages, calendar events, finance transactions, health metrics.
 
 Why? Because I wanted to know what actually drives productivity. Not what books say. Not what productivity gurus claim. What the data shows.
 
-## The Quantified Self
-
-Most productivity advice is unfalsifiable. "Wake up early." "Meditate." "Exercise." These might work—but how would you know? Without data, you're running on vibes and confirmation bias.
-
-I decided to measure instead of guess.
-
-## What I've Found
+### What I've Found
 
 Some findings confirm conventional wisdom:
 - Momentum matters (yesterday's output predicts today's)
@@ -26,14 +35,13 @@ Some findings confirm conventional wisdom:
 Some findings contradict it:
 - More meetings correlate with *more* commits, not fewer
 - Late nights correlate with peak productivity (when you're in flow)
-- Sleep optimization is overrated for daily output (health is a constraint on T, not V(t))
 
 Some findings surprised me:
 - Spotify skip rate >20% predicts a 55% drop in next-day commits
 - Hands-up/eurodance music correlates with 6+ commits/day
 - Media volume, not timing, predicts next-day crashes
 
-## The Framework
+### The Framework
 
 I think about life optimization as maximizing:
 
@@ -41,15 +49,8 @@ I think about life optimization as maximizing:
 V_total = ∫₀ᵀ V(t) dt
 ```
 
-Where:
-- **V(t)** = daily value (flow, creation, connection, leverage)
-- **T** = lifespan
-- **V_total** = lifetime value
+Where **V(t)** = daily value, **T** = lifespan. Health extends T. Everything else optimizes V(t).
 
-Health extends T. Everything else optimizes V(t). Most people confuse maintenance (T) with optimization (V(t)).
+---
 
-## This Blog
-
-Here I share what the data says. No productivity theater. No unfalsifiable advice. Just patterns extracted from 13 years of personal tracking.
-
-If you want to discuss, DM me on [Twitter](https://twitter.com/ManuelDelVerme).
+DM me on [Twitter](https://twitter.com/ManuelDelVerme) or [GitHub](https://github.com/manuel-delverme).
